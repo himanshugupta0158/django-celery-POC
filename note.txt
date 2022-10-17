@@ -1,2 +1,3 @@
-To run celery server while using redis
--> celery -A celery_example worker -l info -P eventlet
+To run celery server while using redis or rabbit server
+-> make sure you have either 'rabbit' server or 'redis' server ON to use when using celery server. 
+-> run after instalation done -> 'celery -A celery_example worker -l info -P eventlet'
