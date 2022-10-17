@@ -1,0 +1,2 @@
+To run celery server while using redis
+-> celery -A celery_example worker -l info -P eventlet
